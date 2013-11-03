@@ -56,6 +56,34 @@ table.controls td:nth-child(2){
   margin-bottom: 35px;
 }
 
+.inline-list{
+  list-style-type: none;
+}
+
+.inline-list li{
+  display: inline-block;
+  width: 240px;
+  opacity: 0;
+  -webkit-transition: all 1s linear;
+}
+
+.inline-list li:nth-child(n+1){
+  -webkit-transition-delay: .2s;
+}
+
+.inline-list li:nth-child(n+2){
+  -webkit-transition-delay: .4s;
+}
+
+.inline-list li.animated{
+  opacity: 1;
+}
+
+.inline-list img{
+  width: 150px;
+  display: block;
+}
+
 #mesh{
   display: none;
   background-image: linear-gradient(white 2px, transparent 2px),
