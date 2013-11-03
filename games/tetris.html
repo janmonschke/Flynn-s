@@ -1,0 +1,56 @@
+<html>
+<head>
+  <title>Flynn's JS Arcade</title>
+  <link rel="stylesheet" type="text/css" href="/style.css">
+  <script type="text/javascript" src="/js/jquery.min.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/windowStack.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/terminal.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/gui.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/base64.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/json2.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/swfobject.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/resampler.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/XAudioServer.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/other/resize.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/GameBoyCore.js"></script>
+  <script type="text/javascript" src="/emulators/gbcjs/GameBoyIO.js"></script>
+  <script type="text/javascript" src="tetris.js"></script>
+</head>
+<body>
+  <div id="mesh"></div>
+  <h1>Tetris</h1>
+  <div class="container">
+    <div class="left">
+
+      <canvas id="mainCanvas" width="240" height="216"></canvas>
+
+    </div>
+    <div class="right">
+      <div class="settings">
+        <h2>System</h2>
+        <div class="button">Fullscreen</div>
+      </div>
+      <h2>Controls</h2>
+      <table class="controls">
+        <tr>
+          <td>A:</td>
+          <td>X / J</td>
+        </tr>
+        <tr>
+          <td>B:</td>
+          <td>Z / Y Q</td>
+        </tr>
+        <tr>
+          <td>SELECT:</td>
+          <td>Shift</td>
+        </tr>
+        <tr>
+          <td>START:</td>
+          <td>Enter</td>
+        </tr>
+
+      </table>
+    </div>
+  </div>
+</body>
+</html>
