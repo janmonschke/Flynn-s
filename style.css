@@ -69,3 +69,12 @@ table.controls td:nth-child(2){
   -webkit-transform-style: preserve-3d;
   -webkit-transform: rotateX(75deg) rotate(50deg);
 }
+
+/* this is for xnes only */
+canvas {
+  zoom: 200%;
+}
+
+textarea {
+  display: none;
+}
