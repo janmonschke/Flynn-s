@@ -1,0 +1,68 @@
+body{
+  background-color: #222;
+  color: #ccc;
+  font-family: Menlo, Monaco, monospace;
+  width: 960px;
+  margin: 0 auto;
+  padding-top: 20px;
+}
+
+.container .left{
+  float: left;
+  width: 60%;
+  height: 100%;
+}
+
+.container .right{
+
+}
+
+table.controls td:nth-child(2){
+  font-weight: bold;
+  color: #777;
+}
+
+.button{
+  background: #666;
+  display: inline-block;
+  padding: 5px 10px 6px;
+  color: #ddd;
+  text-decoration: none;
+  font-weight: bold;
+  line-height: 1;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px #999;
+  -webkit-box-shadow: 0 1px 3px #999;
+  text-shadow: 0 -1px 1px #666;
+  border-bottom: 1px solid #666;
+  position: relative;
+  cursor: pointer;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border-bottom: 1px solid rgba(0,0,0,0.25);
+}
+
+.button:hover, .button:active{
+  background-color: #999;
+  color: #fff;
+}
+
+.settings{
+  margin-bottom: 35px;
+}
+
+#mesh{
+  display: none;
+  background-image: linear-gradient(white 2px, transparent 2px),
+  linear-gradient(90deg, white 2px, transparent 2px),
+  linear-gradient(rgba(255,255,255,.3) 1px, transparent 1px),
+  linear-gradient(90deg, rgba(255,255,255,.3) 1px, transparent 1px);
+  background-size:100px 100px, 100px 100px, 20px 20px, 20px 20px;
+  background-position:-2px -2px, -2px -2px, -1px -1px, -1px -1px
+  width: 300px;
+  height: 300px;
+  -webkit-transform-style: preserve-3d;
+  -webkit-transform: rotateX(75deg) rotate(50deg);
+}
