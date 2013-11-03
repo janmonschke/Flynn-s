@@ -1,0 +1,15 @@
+.emscripten {
+  padding-right: 0;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+canvas.emscripten {
+  border: 1px solid black;
+  zoom: 250%;
+}
+
+textarea.emscripten {
+  display: none;
+}
