@@ -14,6 +14,7 @@ body{
   float: left;
   width: 60%;
   height: 100%;
+  margin-right: 20px;
 }
 
 .container .right{
@@ -62,8 +63,9 @@ table.controls td:nth-child(2){
 
 .inline-list li{
   display: inline-block;
-  width: 240px;
+  width: 180px;
   opacity: 0;
+  text-align: center;
   -webkit-transition: all 1s linear;
 }
 
@@ -80,6 +82,7 @@ table.controls td:nth-child(2){
 }
 
 .inline-list img{
+  margin: 0 auto;
   width: 150px;
   display: block;
 }
