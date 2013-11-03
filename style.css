@@ -1,8 +1,11 @@
 body{
   background-color: #222;
+  background-image: url(flynns_js_arcade.png);
+  background-repeat: no-repeat;
+  background-position: 10px 10px;
   color: #ccc;
   font-family: Menlo, Monaco, monospace;
-  width: 960px;
+  width: 860px;
   margin: 0 auto;
   padding-top: 20px;
 }
