@@ -1,9 +1,6 @@
 body{
-  background-color: #222;
-  background-image: url(flynns_js_arcade.png);
-  background-repeat: no-repeat;
-  background-position: 10px 10px;
-  color: #ccc;
+  background-color: #47464b;
+  color: #fff;
   font-family: Menlo, Monaco, monospace;
   width: 860px;
   margin: 0 auto;

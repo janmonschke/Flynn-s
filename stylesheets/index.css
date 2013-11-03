@@ -1,0 +1,23 @@
+#wrapper {
+
+  position:   absolute;
+
+  top:  50%;
+  left: 50%;
+
+  width:  332px;
+  height: 263px;
+
+  margin: -132px 0 0 -166px;
+
+  text-align: center;
+}
+
+#choose {
+  margin-bottom: 79px;
+}
+
+#snes {
+  margin-right: 38px;
+}
+
